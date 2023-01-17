@@ -1,5 +1,5 @@
-FROM node:14.8.0-alpine
-RUN npm install -g npm@6.14.7
+FROM node:16.18.0-alpine
+RUN npm install -g npm@8.19.2
 RUN mkdir -p /var/www/application
 WORKDIR /var/www/application
 ADD . /var/www/application
